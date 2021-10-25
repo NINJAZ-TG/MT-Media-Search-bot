@@ -71,7 +71,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("🔍 SEARCH AGAIN 🔎", switch_inline_query_current_chat='')
                     ],
                     [
-                        InlineKeyboardButton("📣 JOIN CHANNEL 📣", url="https://t.me/CinemaCompanyOFFICIAL")
+                        InlineKeyboardButton("📣 JOIN CHANNEL 📣", url="https://t.me/Spyromovie")
                     ]
                     ]
                 await bot.send_cached_media(
@@ -90,7 +90,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 JOIN UPDATES CHANNEL 📢", url='https://t.me/CinemaCompanyOFFICIAL')
+                        InlineKeyboardButton("📢 JOIN UPDATES CHANNEL 📢", url='https://t.me/Spyromovie')
                     ]
                 ]
             )
@@ -106,10 +106,10 @@ async def start(bot, cmd):
                         InlineKeyboardButton("🔍 SEARCH MOVIES 🔎", switch_inline_query_current_chat='')
                     ],
                     [
-                        InlineKeyboardButton("📢 JOIN UPDATES CHANNEL 📢", url="https://t.me/CinemaCompanyOFFICIAL")
+                        InlineKeyboardButton("📢 JOIN UPDATES CHANNEL 📢", url="https://t.me/Spyromovie")
                     ],
                     [
-                        InlineKeyboardButton("👥 MOVIES REQUEST GROUP 👥", url="https://t.me/cinemacompany_officials")
+                        InlineKeyboardButton("👥 MOVIES REQUEST GROUP 👥", url="https://t.me/spyrogroups")
                     ]
                 ]
             )
