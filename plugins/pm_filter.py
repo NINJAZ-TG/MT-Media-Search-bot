@@ -273,7 +273,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('📢 UPDATES CHANNEL 📢', url='https://t.me/CinemaCompanyOFFICIAL'),
+                    InlineKeyboardButton('📢 UPDATES CHANNEL 📢', url='https://t.me/Spyromovie'),
                     InlineKeyboardButton('👥 MOVIES REQUEST GROUP 👥', url='https://t.me/CinemaCompanyOFFICIAL')
                 ]
                 ]
@@ -300,7 +300,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton("🔍 SEARCH AGAIN 🔎", switch_inline_query_current_chat='')
                     ],
                     [
-                        InlineKeyboardButton("📢 JOIN CHANNEL 📢", url="https://t.me/CinemaCompanyOFFICIAL")
+                        InlineKeyboardButton("📢 JOIN CHANNEL 📢", url="https://t.me/Spyromovie")
                     ]
                     ]
                 
@@ -334,7 +334,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton("🔍 SEARCH AGAIN 🔎", switch_inline_query_current_chat='')
                     ],
                     [
-                        InlineKeyboardButton("📣 JOIN CHANNEL 📣", url="https://t.me/CinemaCompanyOFFICIAL")
+                        InlineKeyboardButton("📣 JOIN CHANNEL 📣", url="https://t.me/Spyromovie")
                     ]
                     ]
                 
